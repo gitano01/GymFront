@@ -5,13 +5,13 @@ import {AddComponent} from './Persona/add/add.component';
 import {EditComponent} from './Persona/edit/edit.component';
 
 const routes: Routes = [
-  { path: 'add', component: AddComponent},
-  { path: 'edit', component: EditComponent},
-  { path: 'listar', component: ListarComponent}
+  {path: 'add', component: AddComponent},
+  {path: 'edit', component: EditComponent},
+  {path: 'listar', component: ListarComponent}
 ];
 
 @NgModule({
-   imports: [ RouterModule.forRoot(routes)],
+   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
